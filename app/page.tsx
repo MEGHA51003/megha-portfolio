@@ -310,7 +310,7 @@ export default function Home() {
         Google & Kaggle
       </p>
       <a
-    href="/certificates/google-ai-agent.png.png"
+    href="/certificates/google-ai-agent.png"
     target="_blank"
     className="text-sm text-blue-400 hover:underline"
   >
@@ -325,7 +325,7 @@ export default function Home() {
         Dubai Future Foundation (DFF)
       </p>
       <a
-    href="/certificates/One-million.pdf.pdf"
+    href="/certificates/One-million.pdf"
     target="_blank"
     className="text-sm text-blue-400 hover:underline"
   >
@@ -342,7 +342,7 @@ export default function Home() {
         IIT Madras
       </p>
       <a
-    href="/certificates/iit-data-science.pdf.pdf"
+    href="/certificates/iit-data-science.pdf"
     target="_blank"
     className="text-sm text-blue-400 hover:underline"
   >
@@ -379,7 +379,7 @@ export default function Home() {
         Accenture · Forage
       </p>
       <a
-    href="/certificates/accenture-data-analytics.pdf.pdf"
+    href="/certificates/accenture-data-analytics.pdf"
     target="_blank"
     className="text-sm text-blue-400 hover:underline"
   >
