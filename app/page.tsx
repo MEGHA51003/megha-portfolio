@@ -543,7 +543,7 @@ export default function Home() {
 
     {/* Resume (optional – we’ll add file next) */}
     <a
-      href="/Megha_BS_CV_DBA.pdf"
+      href="/Megha_BS_CV.pdf"
       target="_blank"
       className="px-6 py-3 rounded-xl border border-slate-700 hover:bg-slate-800 transition"
     >
