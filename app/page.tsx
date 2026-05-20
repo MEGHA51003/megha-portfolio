@@ -107,18 +107,17 @@ export default function Home() {
             </h1>
 
             <h2 className="text-2xl text-blue-400 font-medium mb-6">
-              Data & Business Analyst · Freelance Web Developer & Automation Specialist
+              Data & Business Analyst | I build dashboards, automate workflows, and ship products | Open to Relocation
             </h2>
 
             <p className="text-slate-300 leading-relaxed max-w-xl mb-8">
-              CS graduate combining data analysis, business automation, and
-              portfolio web development. I help businesses turn raw data into
-              decisions, eliminate manual work with Zapier workflows, and build
-              impressive web presences using React & Next.js.
+              CS graduate combining three skills most analysts don't have together.
+              Data & Business Analysis to turn messy data into clear decisions, Business Automation to eliminate manual work 
+              using Zapier and no-code workflows, and AI Product Building to ship real tools that solve real problems.
             </p>
 
             <div className="flex flex-wrap gap-3 mb-8">
-              {["Power BI", "SQL", "Python", "React", "Zapier", "Next.js"].map((tag) => (
+              {["Power BI", "SQL", "Python", "Excel", "AI Tools"].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 bg-white/10 border border-white/20 rounded-full text-xs text-slate-200 backdrop-blur-sm"
@@ -354,8 +353,39 @@ export default function Home() {
                 View Live Site →
               </a>
             </div>
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div>
+                <h3 className="text-xl font-semibold mb-2">
+                  MeetingMind — AI Meeting Summarizer
+                </h3>
+                <p className="text-slate-400 text-sm leading-relaxed max-w-2xl">
+                  Built and deployed an AI tool that turns messy meeting notes into executive summaries, 
+                  action items with real deadlines and follow-up emails — in under 30 seconds.
+                  No login. No setup. Free to use.
+                </p>
+                <div className="flex flex-wrap gap-2 mt-3">
+                  {["HTML", "CSS", "JavaScript", "Netlify"].map((tag) => (
+                    <span
+                      key={tag}
+                      className="px-2 py-1 bg-slate-800 rounded text-xs text-slate-400"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <a
+                href="https://meetingmind-meeting-summarizer.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 transition rounded-xl text-sm font-medium text-white"
+              >
+                View Live Site →
+              </a>
+            </div>
           </motion.div>
         </div>
+        
 
         {/* Personal Projects */}
         <p className="text-xs uppercase tracking-widest text-slate-500 font-semibold mb-4 mt-10">
