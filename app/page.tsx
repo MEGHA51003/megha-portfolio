@@ -107,7 +107,7 @@ export default function Home() {
             </h1>
 
             <h2 className="text-2xl text-blue-400 font-medium mb-6">
-              Data & Business Analyst | I build dashboards, automate workflows, and ship products | Open to Relocation
+              Data & Business Analyst | I build dashboards, automate workflows, and ship products 
             </h2>
 
             <p className="text-slate-300 leading-relaxed max-w-xl mb-8">
