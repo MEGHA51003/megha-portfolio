@@ -367,7 +367,7 @@ export default function Home() {
             {
               title: "MeetingMind — AI Meeting Summarizer",
               desc: "Built and deployed an AI tool that turns messy meeting notes into executive summaries, action items with real deadlines, and follow-up emails — in under 30 seconds.No login. No setup. Free to use.",
-              tags: ["JavaScript"],
+              tags: ["Next.js", "React", "TypeScript", "Groq AI", "Vercel"],
               link: "https://meetingmind-meeting-summarizer.vercel.app/",
             },
             {
