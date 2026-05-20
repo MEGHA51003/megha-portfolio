@@ -353,36 +353,7 @@ export default function Home() {
                 View Live Site →
               </a>
             </div>
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-              <div>
-                <h3 className="text-xl font-semibold mb-2">
-                  MeetingMind — AI Meeting Summarizer
-                </h3>
-                <p className="text-slate-400 text-sm leading-relaxed max-w-2xl">
-                  Built and deployed an AI tool that turns messy meeting notes into executive summaries, 
-                  action items with real deadlines and follow-up emails — in under 30 seconds.
-                  No login. No setup. Free to use.
-                </p>
-                <div className="flex flex-wrap gap-2 mt-3">
-                  {["HTML", "CSS", "JavaScript", "Netlify"].map((tag) => (
-                    <span
-                      key={tag}
-                      className="px-2 py-1 bg-slate-800 rounded text-xs text-slate-400"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
-              </div>
-              <a
-                href="https://meetingmind-meeting-summarizer.vercel.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 transition rounded-xl text-sm font-medium text-white"
-              >
-                View Live Site →
-              </a>
-            </div>
+            
           </motion.div>
         </div>
         
@@ -393,6 +364,12 @@ export default function Home() {
         </p>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {[
+            {
+              title: "MeetingMind — AI Meeting Summarizer",
+              desc: "Built and deployed an AI tool that turns messy meeting notes into executive summaries, action items with real deadlines, and follow-up emails — in under 30 seconds.No login. No setup. Free to use.",
+              tags: ["JavaScript"],
+              link: "https://meetingmind-meeting-summarizer.vercel.app/",
+            },
             {
               title: "Business Automation System",
               desc: "End-to-end Zapier automation — Google Forms → Google Sheets → Gmail notifications. Eliminates manual data entry for client businesses. Built and deployed for real use.",
